@@ -120,3 +120,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+#use code to add static folder for all apps
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    'D:\python_projects\Blogger\src\static',
+]
